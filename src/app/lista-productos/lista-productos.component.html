@@ -1,0 +1,13 @@
+
+<div class="box-f" id="prod">
+    <h2 class="bg-success tituloProducto">{{titulo}}</h2>
+    <div class="container">
+        <div class="row d-flex justify-content-around">
+            <div class="col-3 box" *ngFor="let producto of productos"  (click)="manejarClick(producto)">
+                <img [src]="producto.imagen" alt="">
+                <p class="name">{{producto.nombre}}</p>
+                <p class="price">{{producto.precio}}</p>
+            </div>
+        </div>
+    </div>
+</div>

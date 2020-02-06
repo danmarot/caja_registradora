@@ -1,0 +1,42 @@
+.box{
+    margin: 7px;
+    border-radius: 3px;
+    border: 1px solid #4fd053;;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    width: auto;
+    height: 40px;
+}
+
+.box img{
+    margin-top: 17px;
+}
+
+
+.name{
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+
+.price{
+    font-size: 13px;
+    text-align: left;
+}
+
+.tituloProducto{
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.box-f{
+    margin: 5px;
+}
